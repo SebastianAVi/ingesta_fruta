@@ -14,7 +14,5 @@ try:
     shutil.copy(origen, destino)
     logging.info(f"Archivo copiado correctamente: {destino}")
 except FileNotFoundError:
-    logging.error(f"Archivo origen no encontrado: {origen}")
-except Exception as e:
-    logging.error(f"Error en la ingesta: {e}")
-    
+    logging.error(f"Archivo no encontrado: {origen}")
+
