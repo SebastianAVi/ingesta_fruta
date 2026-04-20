@@ -4,7 +4,7 @@ import os
 
 logging.basicConfig(
     level=logging.INFO,
-    format="[%(levelname)s] %(message)s")
+    format="%(message)s")
 origen  = "origen/ventas.csv"
 destino = "data/raw/ventas.csv"
 
